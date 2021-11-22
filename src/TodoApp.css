@@ -1,0 +1,39 @@
+body {
+    width: 90%;
+    margin: auto;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+.todo-app {
+    font-family: sans-serif;
+    color: black
+}
+
+.add-todo {
+    margin-left: 0.5rem;
+}
+
+.todo-list {
+    margin-top: 1rem;
+}
+
+li {
+    font-family: monospace;
+    cursor: pointer;
+    line-height: 1.5;
+    list-style: outside;
+    color: navy;
+    list-style: lower-roman;
+    list-style-position: inside;
+}
+
+li:nth-child(odd) {
+    font-family: monospace;
+    cursor: pointer;
+    line-height: 1.5;
+    list-style: outside;
+    color: darkred;
+    list-style: lower-roman;
+    list-style-position: inside;
+}
